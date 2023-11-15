@@ -50,7 +50,7 @@ function listClickHander(event) {
 
 
   // 5. Get the index from the data attribute (dataset.pokemon)
-const indexFromDataAttribute = event.target.Dataset.pokemon;
+const indexFromDataAttribute = event.target.dataset.pokemon;
 
   // 6. Use the textContent of the span to display the index that was clicked
   pokeMessage.textContent = indexFromDataAttribute;
